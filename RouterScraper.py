@@ -37,9 +37,9 @@ def show_help(): # Muestra información de ayuda
    print("\n[💡 Uso]: python RouterScraper.py [opciones]")
    print("Opciones:")
    print("  -h, --help\t\tMuestra este menú")
-   print('  --get-passwords\t\tCrea un diccionario "\033[4mpasswords.txt\033[0m" con las contraseñas encontradas')
-   print("  --start <red>\t\tEstablece la red de inicio \n\t\t\t\t-debe estar entre 8 y 23, default=8)")
-   print("  --stop <red>\t\tEstablece la red de fin  \n\t\t\t\t-debe estar entre 9 y 24, default=24)")
+   print('  --get-passwords\tCrea un diccionario "\033[4mpasswords.txt\033[0m" con las contraseñas encontradas')
+   print("  --start <red>\t\tEstablece la red de inicio (debe estar entre 8 y 24, default=8)")
+   print("  --stop <red>\t\tEstablece la red de fin  (debe estar entre 8 y 24, default=24)")
 
 payload = {
     'username': 'adminisp',
